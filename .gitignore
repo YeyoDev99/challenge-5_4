@@ -1,0 +1,21 @@
+# Data files (large — download from NCES)
+data/*.csv
+data/*.sas7bdat
+data/*.zip
+data/*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
