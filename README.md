@@ -114,3 +114,15 @@ Adjusted Rand Index vs `LEVEL` used **post-hoc only** (never for tuning).
 - Ester, M., Kriegel, H. P., Sander, J., & Xu, X. (1996). A density-based algorithm for discovering clusters in large spatial databases with noise. *KDD-96*, 226–231.
 - Ward, J. H. (1963). Hierarchical grouping to optimize an objective function. *JASA*, 58(301), 236–244.
 - NCES. (2024). Common Core of Data (CCD) Universe Files, Version 1a. https://nces.ed.gov/ccd/
+
+## Downloading the Data
+
+The CSV files are not included in this repository (too large for GitHub).
+Run the download script to get them automatically:
+
+```bash
+bash download_data.sh
+```
+
+This downloads all 5 CCD files directly from NCES into the `data/` folder.
+It takes about 5 minutes depending on your connection.
