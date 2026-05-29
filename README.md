@@ -79,7 +79,7 @@ It takes about 5 minutes depending on your connection.
 
 ### 3. Run the notebook
 ```bash
-jupyter notebook notebooks/best_run.ipynb
+jupyter notebook notebooks/best_run_.ipynb
 ```
 Run all cells in order. All figures are saved to `figures/` and metrics to `results/`.
 
