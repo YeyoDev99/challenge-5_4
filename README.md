@@ -96,15 +96,15 @@ Adjusted Rand Index vs `LEVEL` used **post-hoc only** (never for tuning).
 - `eda_distributions.png` — Feature distributions (log scale)
 - `eda_correlation.png` — Correlation heatmap
 - `pca_variance.png` — PCA cumulative explained variance
-- `kmeans_elbow_silhouette.png` — Elbow + silhouette curves ✅
-- `kmeans_pca2d.png` — K-Means 2-D PCA projection ✅
+- `kmeans_elbow_silhouette.png` — Elbow + silhouette curves
+- `kmeans_pca2d.png` — K-Means 2-D PCA projection
 - `kmeans_cluster_heatmap.png` — Cluster profile heatmap
 - `kmeans_cluster_characteristics.png` — FRPL & charter per cluster
-- `dbscan_knn_distance.png` — k-NN distance plot for eps ✅
-- `dbscan_pca2d.png` — DBSCAN 2-D PCA projection ✅
-- `hierarchical_dendrogram.png` — Truncated dendrogram ✅
-- `hierarchical_pca2d.png` — Hierarchical 2-D PCA projection ✅
-- `comparison_pca2d.png` — Side-by-side comparison of all 3 algorithms ✅
+- `dbscan_knn_distance.png` — k-NN distance plot for eps
+- `dbscan_pca2d.png` — DBSCAN 2-D PCA projection
+- `hierarchical_dendrogram.png` — Truncated dendrogram
+- `hierarchical_pca2d.png` — Hierarchical 2-D PCA projection
+- `comparison_pca2d.png` — Side-by-side comparison of all 3 algorithms
 
 ---
 
