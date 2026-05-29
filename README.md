@@ -30,7 +30,7 @@ School Year: 2022-2023 | ~99,500 open public schools
 | 059 | Staff (teacher FTE counts) | `ccd_sch_059_2223_l_1a_083023.csv` |
 | 129 | School Characteristics (virtual, NSLP) | `ccd_sch_129_2223_w_1a_083023.csv` |
 
-> ⚠️ The data files are NOT included in this repository (public use; download from NCES).
+> The data files are NOT included in this repository (public use; download from NCES).
 
 ---
 
