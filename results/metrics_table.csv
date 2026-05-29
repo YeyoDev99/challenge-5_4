@@ -1,0 +1,4 @@
+Algorithm,Config,N_Clusters,Noise_Frac,Sample,Silhouette,Davies_Bouldin,Calinski_Harabasz
+K-Means,"k=6, MiniBatchKMeans, n_init=20",6,—,Full dataset,0.2384,1.4366,2493.1
+DBSCAN,"eps=1.2111, min_samples=16",3,6.3%,"n=15,000",0.2415,1.4979,2159.9
+Hierarchical,"k=6, Ward linkage",6,—,"n=5,000",0.2511,1.3067,837.2
