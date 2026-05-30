@@ -68,7 +68,7 @@ jupyter lab
 
 **4.** Navigate to `notebooks/` → open `best_run.ipynb` → **Run → Run All Cells**
 
-> ⚠️ Data files are lost when the Codespace stops. Run `bash download_data.sh`
+> Data files are lost when the Codespace stops. Run `bash download_data.sh`
 > again each time you reopen the Codespace.
 
 ---
@@ -128,14 +128,14 @@ school_level_enc
 - `eda_distributions.png` — Feature distributions
 - `eda_correlation.png` — Correlation heatmap
 - `pca_variance.png` — PCA explained variance
-- `kmeans_elbow_silhouette.png` — Elbow + Silhouette curves ✅
-- `kmeans_pca2d.png` — K-Means 2D projection ✅
+- `kmeans_elbow_silhouette.png` — Elbow + Silhouette curves
+- `kmeans_pca2d.png` — K-Means 2D projection
 - `kmeans_cluster_heatmap.png` — Cluster profile heatmap
-- `dbscan_knn_distance.png` — k-NN distance plot ✅
-- `dbscan_pca2d.png` — DBSCAN 2D projection ✅
-- `hierarchical_dendrogram.png` — Dendrogram ✅
-- `hierarchical_pca2d.png` — Hierarchical 2D projection ✅
-- `comparison_pca2d.png` — Side-by-side comparison ✅
+- `dbscan_knn_distance.png` — k-NN distance plot
+- `dbscan_pca2d.png` — DBSCAN 2D projection
+- `hierarchical_dendrogram.png` — Dendrogram
+- `hierarchical_pca2d.png` — Hierarchical 2D projection
+- `comparison_pca2d.png` — Side-by-side comparison
 
 ---
 
