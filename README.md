@@ -3,6 +3,7 @@
 ### Universidad Distrital Francisco José de Caldas — Machine Learning
 
 ---
+# Link Video: https://youtu.be/PI5b5u8dyoo
 
 ## Domain
 **Education Systems** — Cluster ~99K U.S. public schools by resource, demographic,
