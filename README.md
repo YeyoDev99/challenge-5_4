@@ -30,7 +30,7 @@ School Year: 2022-2023 | ~99,500 open public schools
 | 059 | Staff (teacher FTE counts) | `ccd_sch_059_2223_l_1a_083023.csv` |
 | 129 | School Characteristics (virtual, NSLP) | `ccd_sch_129_2223_w_1a_083023.csv` |
 
-> The data files are NOT included in this repository (public use; download from NCES).
+> ⚠️ The data files are NOT included in this repository (public use; download from NCES).
 
 ---
 
@@ -65,21 +65,9 @@ pip install -r requirements.txt
 ### 2. Place data files
 Download from NCES (see above) and place the 5 CSV files in `data/`.
 
-## Downloading the Data
-
-The CSV files are not included in this repository (too large for GitHub).
-Run the download script to get them automatically:
-
-```bash
-bash download_data.sh
-```
-
-This downloads all 5 CCD files directly from NCES into the `data/` folder.
-It takes about 5 minutes depending on your connection.
-
 ### 3. Run the notebook
 ```bash
-jupyter notebook notebooks/best_run_.ipynb
+jupyter notebook notebooks/best_run.ipynb
 ```
 Run all cells in order. All figures are saved to `figures/` and metrics to `results/`.
 
@@ -108,15 +96,15 @@ Adjusted Rand Index vs `LEVEL` used **post-hoc only** (never for tuning).
 - `eda_distributions.png` — Feature distributions (log scale)
 - `eda_correlation.png` — Correlation heatmap
 - `pca_variance.png` — PCA cumulative explained variance
-- `kmeans_elbow_silhouette.png` — Elbow + silhouette curves
-- `kmeans_pca2d.png` — K-Means 2-D PCA projection
+- `kmeans_elbow_silhouette.png` — Elbow + silhouette curves ✅
+- `kmeans_pca2d.png` — K-Means 2-D PCA projection ✅
 - `kmeans_cluster_heatmap.png` — Cluster profile heatmap
 - `kmeans_cluster_characteristics.png` — FRPL & charter per cluster
-- `dbscan_knn_distance.png` — k-NN distance plot for eps
-- `dbscan_pca2d.png` — DBSCAN 2-D PCA projection
-- `hierarchical_dendrogram.png` — Truncated dendrogram
-- `hierarchical_pca2d.png` — Hierarchical 2-D PCA projection
-- `comparison_pca2d.png` — Side-by-side comparison of all 3 algorithms
+- `dbscan_knn_distance.png` — k-NN distance plot for eps ✅
+- `dbscan_pca2d.png` — DBSCAN 2-D PCA projection ✅
+- `hierarchical_dendrogram.png` — Truncated dendrogram ✅
+- `hierarchical_pca2d.png` — Hierarchical 2-D PCA projection ✅
+- `comparison_pca2d.png` — Side-by-side comparison of all 3 algorithms ✅
 
 ---
 
@@ -126,4 +114,3 @@ Adjusted Rand Index vs `LEVEL` used **post-hoc only** (never for tuning).
 - Ester, M., Kriegel, H. P., Sander, J., & Xu, X. (1996). A density-based algorithm for discovering clusters in large spatial databases with noise. *KDD-96*, 226–231.
 - Ward, J. H. (1963). Hierarchical grouping to optimize an objective function. *JASA*, 58(301), 236–244.
 - NCES. (2024). Common Core of Data (CCD) Universe Files, Version 1a. https://nces.ed.gov/ccd/
-
